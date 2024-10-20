@@ -252,6 +252,15 @@ a .btn-color-2 {
   color: #ff6969;
 }
 
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 10px;
+  }
+}
+
+
 /*! ABOUT SECTION */
 
 #about {
